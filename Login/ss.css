@@ -1,0 +1,54 @@
+body{
+    background-image: url("img/sliders-01.png");
+    background-repeat: no-repeat;
+    background-size: 123%;
+}
+#maincom{
+   margin-top: 6%;
+    background: hsl(0, 0%, 67%,0.25);
+
+    border-radius: 50px;
+}
+#exampleInputEmail1{
+    width: 80%;
+   text-align: left;
+    border-top: none;
+    border-left: none;
+    margin-left: 10%;
+    border-right: none;
+    background-color:hsl(0, 0%, 67%,0);
+    border-bottom: 2px solid #C7B8B8;
+    color: white;
+    font-size: 35px;
+}
+.sumitbtn{
+   background-color: #EFAC5E;
+   border: none;
+   border-radius: 50px;
+   padding-left: 25px;
+   padding-right: 25px;
+   font-size: 30px;
+   margin-top: 5%;
+   margin-left: 40%;
+}
+#dont{
+color: white;
+text-align: center;
+
+}
+.linker{
+    text-decoration: none;
+}
+#sin{
+    color: #EFAC5E;
+    text-align: center;
+}
+.linker:hover{
+    color: green;
+}
+#thalavar{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color:#EFAC5E;
+}
