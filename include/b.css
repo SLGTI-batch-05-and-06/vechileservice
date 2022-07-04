@@ -1,0 +1,25 @@
+#ulcode a{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: right;
+    
+}
+#ulcode li{
+    text-align: right;
+    
+}
+#navbarNav {
+margin-left: 300px;
+}
+
+li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mainfooter{
+    background-color: black;
+}
+.fw-bold{
+    font-style: underline;
+    
+}

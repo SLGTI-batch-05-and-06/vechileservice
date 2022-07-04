@@ -7,6 +7,7 @@
     <title>Document</title>
    
   <?php include('script.php'); ?>
+  <link rel="stylesheet" href="b.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light " style="background-color:black;">
@@ -34,6 +35,19 @@
       <li class="nav-item">
         <a class="nav-link disabled" href="#">Parts</a>
       </li>
+      <li class="nav-item"></li>
+      <li class="nav-item"></li>
+      <li class="nav-item"></li>
+      <li class="nav-item"></li>
+      <li class="nav-item"></li>
+      <li class="nav-item"></li>
+      <li class="nav-item"></li>
+      <li class="nav-item"></li>
+      <li class="nav-item"></li>
+      <li class="nav-item"></li>
+      <li class="nav-item"></li>
+     <li class="nav-item"><a class="nav-link disabled" href="../login.php">Login/signup</a>
+    </li>
       
     </ul>
   </div>

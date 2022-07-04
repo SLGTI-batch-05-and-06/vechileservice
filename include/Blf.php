@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DeoOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
   <?php include('script.php'); ?>
-<!-- <link rel="stylesheet" href="/ss.css"> -->
+ <link rel="stylesheet" href="b.css">
 </head>
 <body>
     <footer>
@@ -55,6 +55,14 @@
         </ul>
 
     </div>
+</div>
+<div class="row">
+    <div class="col-md-4 p-4"></div>
+    <div class="col-md-1 p-4"><img src="f1.png" alt=""></div>
+    <div class="col-md-1 p-4"><img src="t1.png" alt=""></div>
+    <div class="col-md-1 p-4"><img src="i1.png" alt=""></div>
+    <div class="col-md-1 p-4"><img src="w1.png" alt=""></div>
+    <div class="col-md-4 p-4"></div>
 </div>
 </div>
 </footer>
