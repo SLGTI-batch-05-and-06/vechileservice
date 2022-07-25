@@ -13,7 +13,7 @@
 </head>
 
 <body class="mainbody">
-    
+
     <div class="row mt-5">
         <div class="col-4"></div>
 
@@ -21,20 +21,26 @@
             <form>
                 <h1 class="mt-5" id="thalavar">Login</h1>
                 <div class="mb-3 mt-5">
-                    <input type="email" id="exampleInputEmail1"  placeholder="Enter Username">
+                    <input type="email" id="exampleInputEmail1" placeholder="Enter Username">
                 </div>
                 <div class="mb-3 mt-5">
-                    <input type="password"  id="exampleInputEmail1" placeholder="Enter Password">
+                    <input type="password" id="exampleInputEmail1" placeholder="Enter Password">
                 </div>
                 <div class="btnmain">
-                <button type="submit" class="sumitbtn">Login</button>
+                    <button type="submit" class="sumitbtn">Login</button>
                 </div>
                 <div class="mt-4 mb-5">
-                   <a class="linker" href="" > <h3 id="dont">Don't have an account?</h3></a> 
-                   <a class="linker" href=""> <h3 id="sin">Sign up</h3></a> 
-                   <a class="linker" href=""> <h3 id="sin">Forgot Password?</h3></a> 
+                    <a class="linker" href="createaccount.php">
+                        <h3 id="dont">Don't have an account?</h3>
+                    </a>
+                    <a class="linker" href="createaccount.php">
+                        <h3 id="sin">Sign up</h3>
+                    </a>
+                    <a class="linker" href="forgot.php">
+                        <h3 id="sin">Forgot Password?</h3>
+                    </a>
                 </div>
-         
+
             </form>
         </div>
         <div class="col-4"></div>

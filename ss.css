@@ -1,3 +1,5 @@
+/* login */
+
 #erreo{
     background-color: black;
 }
@@ -61,17 +63,4 @@ text-align: center;
     width: 100%;
     background-color: black;
 }
-.mb{
-    background-color: #DADBDC;
-}
 
-#tit{
-    text-align: center;
-}
-#na{
-    background-image: url('us1.png');
-    position: left;
-    padding-left: 30px;
-    background-size: 15px;
-    background-repeat: no-repeat;
-}

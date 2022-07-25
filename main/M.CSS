@@ -1,0 +1,46 @@
+/* dashboard about us */
+.contai{
+    background-color: #C7C7C7;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin: 10rem auto 0 auto;
+}
+.section img{
+    height:150px;
+    border-radius: 100px;
+}
+.section h1{
+    margin: 0;
+    color: black;
+}
+.section p{
+    color: black;
+    margin-right: 15px;
+}
+.side{
+    color: black;
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+#btn1{
+    margin-top: 190px;
+    margin-left: 230px;
+    background-color: #C70A0A;
+    color: white;
+    font-weight: 25px;
+}
+#btn2{
+    margin-top: 190px;
+    margin-left: 750px;
+    background-color: #C70A0A;
+    color: white;
+    font-weight: 25px;
+    border: #C7C7C7;
+    border-width: 3px;
+}
+
