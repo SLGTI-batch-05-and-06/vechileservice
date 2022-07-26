@@ -90,7 +90,7 @@ if(isset($_GET["action"]))
         <br>
         <br>
         <br>
-
+    <div class="row">
         <?php
         $query = "SELECT * FROM parts ORDER BY id ASC";
         $result=mysqli_query($connect,$query);
@@ -100,7 +100,7 @@ if(isset($_GET["action"]))
              {
                 ?>
         
-            <div class="col-md-4">
+            <div class="col-md-4" style="margin-top:20px;">
                 <form method="post" action="parts.php?action=add&id=<?php echo $row["id"]; ?>">
                     <div style="border:1px solid black; background-color:white;border-radius:5px; padding:16px;"
                         align="center">
@@ -119,6 +119,7 @@ if(isset($_GET["action"]))
         }
         }
         ?>
+        </div>
         <div style="clear:both"></div>
         <br>
         <h3>Order Details</h3>

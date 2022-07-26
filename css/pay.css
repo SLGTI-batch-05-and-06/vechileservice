@@ -21,7 +21,7 @@
 
 }
 .main{
-    background-image: url('p2.jpg');
+    background-image: url('../images/p2.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }

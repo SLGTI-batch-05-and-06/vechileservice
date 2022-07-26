@@ -25,9 +25,26 @@ include_once('../include/alh.php');
     </div>
 
     <!-- services -->
+    <style>
+    .col .card img.card-img-top {
+        height: 150px;
+    }
 
+    .col .card .card-body {
+        height: 200px;
+    }
+
+    .col .card {
+        margin-bottom: 20px;
+        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.50);
+    }
+
+    .col .card:hover {
+        transform: translateY(-10px);
+    }
+    </style>
     <div class="continer"><br>
-        <h3 class="text-center"> Services</h3><br><br>
+        <h3 class="text-center"> Se<span>rvic</span>es</h3><br><br>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col-2"></div>
             <div class="col">
@@ -127,7 +144,7 @@ include_once('../include/alh.php');
     <!-- Gallery -->
 
     <div class="continer"><br>
-        <h3 class="text-center"> Gallery</h3><br><br>
+        <h3 class="text-center"> Ga<span>lle</span>ry</h3><br><br>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col-2"></div>
             <div class="col">
@@ -193,13 +210,11 @@ include_once('../include/alh.php');
     <!-- Offers -->
 
     <div class="continer"><br>
-        <h3 class="text-center"> Offers</h3><br><br>
+        <h3 class="text-center"> Of<span>fe</span>rs</h3><br><br>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col-2"></div>
-            <div class="col">
-                <div class="card bg-dark text-white" style="height: 30rem;">
-                    <img src="h4.png" class="card-img" style="height: 30rem;" alt="...">
-                </div>
+            <div class="cols">
+                <img src="h4.png" class="card-img" style="height: 30rem;" alt="...">
             </div>
             <div class="col-2"></div>
         </div>
@@ -208,7 +223,7 @@ include_once('../include/alh.php');
     <!-- aboutus -->
     <br><br>
     <div class="contai"><br>
-        <h3 class="text-center"> About us</h3><br><br>
+        <h3 class="text-center fs-1 fw-bold"> Ab<span>out</span> us</h3><br><br>
         <div class="section">
             <div class="text">
                 <h1>Our vision</h1>
@@ -222,16 +237,12 @@ include_once('../include/alh.php');
         </div>
         <div class="section">
             <div class="text">
-                <h1>Our vision</h1>
-                <div>
-                    <img src="mission.png" alt="">
-                    <p class="side">
-                    <P>To be one of the top Srilankan companies in the field of motor service.
-                        To export Lanka inventions that are practical, innovative and reasonably priced for all
-                        motorists.</p>
-                </div>
+                <h1>Our Mission</h1>
+                <P>To be one of the top Srilankan companies in the field of motor service.
+                    To export Lanka inventions that are practical, innovative and reasonably priced for all
+                    motorists.</p>
             </div>
-
+            <img src="mission.png" alt="">
             </p>
         </div>
         <div class="section">

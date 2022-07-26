@@ -24,9 +24,26 @@ include_once('../include/blh.php');
     </div>
 
     <!-- services -->
+    <style>
+    .col .card img.card-img-top {
+        height: 150px;
+    }
 
+    .col .card .card-body {
+        height: 200px;
+    }
+
+    .col .card {
+        margin-bottom: 20px;
+        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.50);
+    }
+
+    .col .card:hover {
+        transform: translateY(-10px);
+    }
+    </style>
     <div class="continer"><br>
-        <h3 class="text-center"> Services</h3><br><br>
+        <h3 class="text-center"> Se<span>rvic</span>es</h3><br><br>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col-2"></div>
             <div class="col">
@@ -112,25 +129,27 @@ include_once('../include/blh.php');
         <a href="../services_bfl/b_ac.php">
             <div class="card">
                 <img src="h7.png" class="card-img-top" alt="...">
-                <div class="card-body"></a>
-                    <h5 class="card-title">A/C & Heating repair</h5>
-                    <p class="card-text">We Have new A/c
-                        we do all repair in A/C & Heating
-                        quicker service .</p>
-                </div>
-            </div>
+                <div class="card-body">
+        </a>
+        <h5 class="card-title">A/C & Heating repair</h5>
+        <p class="card-text">We Have new A/c
+            we do all repair in A/C & Heating
+            quicker service .</p>
+    </div>
+    </div>
     </div>
     <div class="col">
-    <a href="../services_bfl/b_steer.php">
-        <div class="card">
-            <img src="h8.png" class="card-img-top" alt="...">
-            <div class="card-body"></a>
-                <h5 class="card-title">Steering & Suspension</h5>
-                <p class="card-text">We Have new Steering & Suspension
-                    we do all repair in Steering & Suspension
-                    quicker service .</p>
-            </div>
-        </div>
+        <a href="../services_bfl/b_steer.php">
+            <div class="card">
+                <img src="h8.png" class="card-img-top" alt="...">
+                <div class="card-body">
+        </a>
+        <h5 class="card-title">Steering & Suspension</h5>
+        <p class="card-text">We Have new Steering & Suspension
+            we do all repair in Steering & Suspension
+            quicker service .</p>
+    </div>
+    </div>
     </div>
     <div class="col-2"></div>
     </div>
@@ -139,7 +158,7 @@ include_once('../include/blh.php');
     <!-- Gallery -->
 
     <div class="continer"><br>
-        <h3 class="text-center"> Gallery</h3><br><br>
+        <h3 class="text-center"> Ga<span>lle</span>ry</h3><br><br>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col-2"></div>
             <div class="col">
@@ -205,13 +224,11 @@ include_once('../include/blh.php');
     <!-- Offers -->
 
     <div class="continer"><br>
-        <h3 class="text-center"> Offers</h3><br><br>
+        <h3 class="text-center"> Of<span>fe</span>rs</h3><br><br>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col-2"></div>
             <div class="col">
-                <div class="card bg-dark text-white" style="height: 30rem;">
-                    <img src="h4.png" class="card-img" style="height: 30rem;" alt="...">
-                </div>
+                <img src="h4.png" class="card-img" style="height: 30rem;" alt="...">
             </div>
             <div class="col-2"></div>
         </div>
@@ -220,7 +237,7 @@ include_once('../include/blh.php');
     <!-- aboutus -->
     <br><br>
     <div class="contai"><br>
-        <h3 class="text-center"> About us</h3><br><br>
+        <h3 class="text-center fs-1 fw-bold"> Ab<span>out</span> us</h3><br><br>
         <div class="section">
             <div class="text">
                 <h1>Our vision</h1>
@@ -234,16 +251,14 @@ include_once('../include/blh.php');
         </div>
         <div class="section">
             <div class="text">
-                <h1>Our vision</h1>
-                <div>
-                    <img src="mission.png" alt="">
-                    <p class="side">
+                <h1>Our Mision</h1>
+                
                     <P>To be one of the top Srilankan companies in the field of motor service.
                         To export Lanka inventions that are practical, innovative and reasonably priced for all
                         motorists.</p>
-                </div>
+               
             </div>
-
+            <img src="mission.png" alt="">
             </p>
         </div>
         <div class="section">

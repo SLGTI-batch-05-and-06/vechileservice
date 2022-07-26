@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="i.css">
+    <link rel="stylesheet" href="css/i.css">
     <link rel="stylesheet" href="include/b.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <?php include('include/script.php');?>
@@ -85,7 +85,7 @@ include_once('include/alh.php');
         </form>
     </div>
     <div class="row"
-        style="background-image:url(ap1.png); background-size:100%; background-repeat:norepeat; height:250px;">
+        style="background-image:url(images/ap1.png); background-size:100%; background-repeat:norepeat; height:250px;">
     </div>
 </body>
 

@@ -41,7 +41,7 @@
                     <a class="nav-link disabled" href="#">Offers</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Parts</a>
+                    <a class="nav-link disabled" href="../parts/parts.php">Parts</a>
                 </li>
                 <li class="nav-item"></li>
                 <li class="nav-item"></li>

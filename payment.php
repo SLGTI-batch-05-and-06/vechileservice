@@ -8,7 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <?php include('include/script.php');?>
-    <link rel="stylesheet" href="pay.css">
+    <link rel="stylesheet" href="css/pay.css">
 </head>
 
 <body class="main">
@@ -90,7 +90,7 @@
                     <div class="flex">
                         <div class="inputbox">
                             <span>Exp year</span>
-                            <input type="number" placeholder="2022">
+                            <input type="text" placeholder="2022">
                         </div>
                         <div class="inputbox">
                             <span>CVV</span>

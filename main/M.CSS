@@ -1,26 +1,32 @@
 /* dashboard about us */
+.continer h3 span{
+    border-bottom: solid 1px rgb(251, 155, 0);
+}
 .contai{
     background-color: #C7C7C7;
 }
+.contai h3 span{
+    border-bottom: solid 1px rgb(251, 155, 0);
+
+}
+
 .section{
     display: flex;
     justify-content: space-between;
     padding: 40px;
     width: 60%;
-    margin: 10rem auto 0 auto;
+    align-items: center;
+    margin: 50px 70px 20px 20%;
+    margin-top: 5px!important;
+    /* margin: 10rem auto 0 auto; */
 }
 .section img{
+    width: 200px;
     height:150px;
-    border-radius: 100px;
+    border-radius: 50px;
+    margin-left: 20px;
 }
-.section h1{
-    margin: 0;
-    color: black;
-}
-.section p{
-    color: black;
-    margin-right: 15px;
-}
+
 .side{
     color: black;
     margin-left: 15px;
