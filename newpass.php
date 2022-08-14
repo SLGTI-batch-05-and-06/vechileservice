@@ -16,6 +16,48 @@
     <?php
 include_once('include/blh.php');
 ?>
+    <?php  
+    if(isset($_POST['submit']))
+    {
+        if(!empty($_POST['password']) )
+        {
+            $password = $_POST['password'];
+            $cpassword = $_POST['repass'];
+
+            if($password === $cpassword){
+    
+            $query = "UPDATE user SET password='$password' WHERE service_id='$id' ";
+            $query_run = mysqli_query($conn,$query);
+    
+            if($query_run)
+            {
+                // echo "added"
+                $_SESSION['Success'] = "User account created";
+                header('Location:createaccount.php');
+                
+            }
+            else
+            {
+                // echo "not added"
+                $_SESSION['Status'] = "User account not created";
+                header('Location:createaccount.php');
+                
+            }
+        }
+    else
+    {
+       echo "Password and confirm password does not match";
+    
+    }
+        }
+        else
+        {
+            echo "All fields are required";
+        }
+    }
+
+    
+    ?>
     <section class="sect">
         <div class="cont">
             <div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-4 col-xl-4 text-center mt-5">
@@ -42,7 +84,7 @@ include_once('include/blh.php');
                         <label for="gridcheck" class="form-check-label ms-2">I Agree <a href="">Terms and
                                 conditions</a></label>
                     </div>
-                    <button type="submit" class="btn btn-primary submit_btn my-4">Submit</button>
+                    <button type="submit" class="btn btn-primary submit_btn my-4" name="submit">Submit</button>
                 </form>
             </div>
         </div>

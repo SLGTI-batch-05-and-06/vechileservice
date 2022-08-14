@@ -18,7 +18,7 @@ include_once('include/alh.php');
 <body class="mbb">
 
     <div class="box-area"
-        style="background-image:url(ap.png); background-size:100%; background-repeat:norepeat; height:200px;">
+        style="background-image:url(images/ap.png); background-size:100%; background-repeat:norepeat; height:200px;">
         <h1 class="text-center text-white" id="hed">Book Appointment</h1>
     </div>
     <div class="container">
@@ -27,60 +27,70 @@ include_once('include/alh.php');
         <form class="bac">
             <div class="form-group">
                 <label>Name</label>
-                <input type="text" class="form-control" id="tbox" placeholder="Enter your name " required>
+                <input type="text" class="form-control" id="tbox" placeholder="Enter your name " required name="name">
             </div>
             <div class="form-group">
                 <label>Email Address</label>
-                <input type="text" class="form-control" id="tbox" placeholder="Enter your address" required>
+                <input type="text" class="form-control" id="tbox" placeholder="Enter your address" required name="mail">
             </div>
             <div class="form-group">
                 <label>Phone</label>
-                <input type="text" class="form-control" id="tbox" placeholder="Enter your phone no" required>
+                <input type="text" class="form-control" id="tbox" placeholder="Enter your phone no" required
+                    name="phone">
             </div>
             <label for="font-bold">Preferred Method Of Contact:</label><br>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="RadioOptions" id="Radio1" value="option1" checked>
+                <input class="form-check-input" type="radio" name="Radio1" id="Radio1" value="phonecall" checked>
                 <label class="form-check-label" for="Radio1">Phone Call</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="RadioOptions" id="Radio2" value="option2">
+                <input class="form-check-input" type="radio" name="Radio1" id="Radio2" value="text">
                 <label class="form-check-label" for="Radio2">Text</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="RadioOptions" id="Radio3" value="option3">
+                <input class="form-check-input" type="radio" name="Radio1" id="Radio3" value="mail">
                 <label class="form-check-label" for="Radio3">Mail</label>
             </div><br><br>
             <label for="font-bold">Your plan during repair:</label><br>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="RadioOptions" id="Radio4" value="option4" checked>
+                <input class="form-check-input" type="radio" name="Radio2" id="Radio4" value="Dropoff" checked>
                 <label class="form-check-label" for="Radio4">Drop off</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="RadioOptions" id="Radio5" value="option5">
-                <label class="form-check-label" for="Radio5">Text</label>
+                <input class="form-check-input" type="radio" name="Radio2" id="Radio5" value="waiting">
+                <label class="form-check-label" for="Radio5">Waiting</label>
             </div>
             <div class="form-group"><br>
                 <label>Select your vechile type</label>
-                <select class="form-control" id="tbox">
-                    <option>Bike</option>
-                    <option>Car</option>
-                    <option>Van</option>
-                    <option>Bus</option>
-                    <option>Truck</option>
+                <select class="form-control" id="tbox" name="type">
+                    <option value="bike">Bike</option>
+                    <option value="car">Car</option>
+                    <option value="van">Van</option>
+                    <option value="bus">Bus</option>
+                    <option value="truck">Truck</option>
                 </select>
             </div>
             <div class="form-group">
                 <label for="formGroup1">Vehicle information</label>
-                <input type="text" class="form-control" id="tbox" placeholder="Year(Required)"><br>
-                <input type="text" class="form-control" id="tbox" placeholder="Make(Required)"><br>
-                <input type="text" class="form-control" id="tbox" placeholder="Model(Required)"><br>
+                <input type="text" class="form-control" id="tbox" placeholder="Year(Required)" name="year1"><br>
+                <input type="text" class="form-control" id="tbox" placeholder="Make(Required)" name="make"><br>
+                <input type="text" class="form-control" id="tbox" placeholder="Model(Required)" name="model"><br>
             </div>
-            <div class="form-outline w-100">
-                <label class="form-label" for="textAreaExample">Message</label>
-                <textarea class="form-control" id="tbox" rows="4" style="background: #fff;"></textarea>
+            <div class="form-group">
+                <select class="form-control" aria-label=".form-select-sm example" name="service" id="tbox">
+                    <option selected>Select your service</option>
+                    <option value="waterwash">Water wash</option>
+                    <option value="tirerepair">New tires & tire repair</option>
+                    <option value="brakerepair">Brakes repair</option>
+                    <option value="oilchanging">Oil change</option>
+                    <option value="checkenginelight">Check engine light</option>
+                    <option value="belt&hoses">Belt & hoses</option>
+                    <option value="acheatingrepair">Ac heating repair</option>
+                    <option value="brakerepair">Streeing & suspension</option>
+                </select>
             </div>
             <div class="in1">
-                <input type="submit" class="but-ba" value="Submit">
+                <input type="submit" class="but-ba" value="Submit" name="submit">
             </div>
         </form>
     </div>

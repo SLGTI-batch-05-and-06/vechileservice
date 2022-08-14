@@ -1,3 +1,7 @@
+<?php
+session_start();
+$conn =  mysqli_connect("localhost","root","","vehicle_service");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,8 +28,28 @@
                         <p class="text-center" style="color:white;"> Sign in to start session</p>
                     </div>
                     <form method="post">
+                    <?php
+                if(isset($_POST['login'])){
+                    $email = $_POST['email'];
+                    $password = md5($_POST['password']);
+                    $query = "SELECT * FROM `admin` WHERE `email` = '$email'";
+                    $query_run = mysqli_query($conn,$query);
+                    if(mysqli_num_rows($query_run)>0){
+                        $row = mysqli_fetch_assoc($query_run);
+                        if($password = $row['password']){
+                            $_SESSION['email'] = $email;
+                            header("Location:home.php");
+                        }else{
+                            echo '<div class="alert alert-warning" role="alert">Password Wrong!</div>';
+                        }
+                    }
+                    else{
+                        '<div class="alert alert-info" role="alert">User not found!</div>';
+                    }
+                   }
+                   ?>
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control ml-3" name="username" placeholder="Username">
+                            <input type="text" class="form-control ml-3" name="email" placeholder="Username">
                             <div class="input-group-append mr-3">
                                 <div class="input-group-text">
                                     <span class="fa fa-user"></span>
@@ -42,9 +66,9 @@
                         </div>
                         <br>
                         <div class="input-group mb-3">
-                            <button type="submit" class="btn btn-warning btn-block ml-4 mr-4">Sign In</button><br>
+                            <button type="submit" class="btn btn-warning btn-block ml-4 mr-4" name="login">Sign In</button><br>
                             </div>
-                            <a href="../main/dashboard.php">
+                            <a href="../index.php">
                                 <p class="text-center" style="color:#F0AD4E;">Go to Website</p>
                             </a>
                         

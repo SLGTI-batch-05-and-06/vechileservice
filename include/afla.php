@@ -23,7 +23,7 @@
         <div class="collapse ms- navbar-collapse justify-content-center">
             <ul class="navbar-nav" id="ulcode">
                 <li class="nav-item  active" id="navbarNav">
-                    <a class="nav-link" href="#">Payment </a>
+                    <a class="nav-link" href="../payment.php">Payment </a>
                 </li>
                 <li class="nav-item fs-1">
                     <a class="nav-link" href="#">Aboutus</a>
@@ -38,7 +38,7 @@
                     <a class="nav-link disabled" href="#">Offers</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Parts</a>
+                    <a class="nav-link disabled" href="../parts/parts.php">Parts</a>
                 </li>
                 <li class="nav-item"></li>
                 <li class="nav-item"></li>

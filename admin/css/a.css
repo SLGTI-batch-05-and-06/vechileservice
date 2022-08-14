@@ -144,4 +144,51 @@ img{
     color: white;
 }
 
+.table{
+    width:100%;
+    margin-top: 100px;
+}
+.table_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+}
 
+.table_header p{
+    color: #000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: bold;
+}
+
+button{
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.add_new{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0298cf;
+    border-radius: 6px;
+}
+
+input{
+    padding: 10px 20px;
+    margin: 0 10px;
+    outline: none;
+    border: 1px solid #0298cf;
+    border-radius: 6px;
+    color: #0298cf;
+}
+
+#tableview{
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: #fff;
+}

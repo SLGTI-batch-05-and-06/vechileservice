@@ -14,7 +14,7 @@
 
 <body>
     <?php
-include_once('../include/alh.php');
+include_once('../include/afla.php');
 ?>
     <!-- banner -->
 
@@ -48,97 +48,99 @@ include_once('../include/alh.php');
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col-2"></div>
             <div class="col">
-                <div class="card">
-                    <img src="h1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Water wash</h5>
-                        <p class="card-text">We do the full cleaning of a vehicle
-                            With water and oil.
-                            it's all are do within one hour .</p>
-                    </div>
-                </div>
+                <a href="../services_bfl/b_waterwash.php">
+                    <div class="card">
+                        <img src="h1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                </a>
+                <h5 class="card-title">Water wash</h5>
+                <p class="card-text">We do the full cleaning of a vehicle
+                    With water and oil.
+                    it's all are do within one hour .</p>
             </div>
-            <div class="col">
-                <div class="card">
-                    <img src="h2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">New tires & tire repair</h5>
-                        <p class="card-text">We have new tires
-                            We do the all repairing on tires
-                            it's all are do within one hour .</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="h3.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Brakes repair</h5>
-                        <p class="card-text">We have new Brakes
-                            We do the all repairing on Breakes
-                            it's all are do within one hour .</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="h4.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Oil Changing</h5>
-                        <p class="card-text">We have All types of oil
-                            it's all are do within 30 minutes .</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-2"></div>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col-2"></div>
-            <div class="col">
-                <div class="card">
-                    <img src="h5.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Check Engine Light</h5>
-                        <p class="card-text">We do the checking of Engine lights
-                            quicker service .</p>
-                    </div>
-                </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <img src="h2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">New tires & tire repair</h5>
+                <p class="card-text">We have new tires
+                    We do the all repairing on tires
+                    it's all are do within one hour .</p>
             </div>
-            <div class="col">
-                <div class="card">
-                    <img src="h6.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Belt & Hoses</h5>
-                        <p class="card-text">We Have new Belts & Hoses
-                            we do all repair in Belt & Hoses
-                            quicker service .</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="h7.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">A/C & Heating repair</h5>
-                        <p class="card-text">We Have new A/c
-                            we do all repair in A/C & Heating
-                            quicker service .</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="h8.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Steering & Suspension</h5>
-                        <p class="card-text">We Have new Steering & Suspension
-                            we do all repair in Steering & Suspension
-                            quicker service .</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-2"></div>
         </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <img src="h3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Brakes repair</h5>
+                <p class="card-text">We have new Brakes
+                    We do the all repairing on Breakes
+                    it's all are do within one hour .</p>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <img src="h4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Oil Changing</h5>
+                <p class="card-text">We have All types of oil
+                    it's all are do within 30 minutes .</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-2"></div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col-2"></div>
+        <div class="col">
+            <div class="card">
+                <img src="h5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Check Engine Light</h5>
+                    <p class="card-text">We do the checking of Engine lights
+                        quicker service .</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="h6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Belt & Hoses</h5>
+                    <p class="card-text">We Have new Belts & Hoses
+                        we do all repair in Belt & Hoses
+                        quicker service .</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="h7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">A/C & Heating repair</h5>
+                    <p class="card-text">We Have new A/c
+                        we do all repair in A/C & Heating
+                        quicker service .</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="h8.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Steering & Suspension</h5>
+                    <p class="card-text">We Have new Steering & Suspension
+                        we do all repair in Steering & Suspension
+                        quicker service .</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
     </div>
 
     <!-- Gallery -->

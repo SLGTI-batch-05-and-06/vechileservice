@@ -39,8 +39,8 @@
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto" id="ulcode">
-                <li class="nav-item"><a class="nav-link disabled" href="../login.php">Login/signup</a>
-                </li>
+                <li class="nav-item"><a class="nav-link disabled" href="login.php"><Span>User login</Span> </a></li> /
+                <li><a class="nav-link disabled" href="admin/index.php"><span>Admin Login</span></a></li>
 
             </ul>
         </div>

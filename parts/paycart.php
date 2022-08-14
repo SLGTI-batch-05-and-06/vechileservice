@@ -18,7 +18,7 @@
             <div class="menub">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand" href="#">
-                        <img src="../tjl.png" style="height: 100px;width:100px; margin-left:20px;">
+                        <img src="../images/tjl.png" style="height: 100px;width:100px; margin-left:20px;">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

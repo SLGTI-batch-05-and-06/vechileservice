@@ -187,7 +187,7 @@
 /* forgot password */
 .sect{
     padding: 0 0 100px;
-    background-image: url(images/bbt.png);
+    background-image: url('../images/bbt.png');
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: 100%;

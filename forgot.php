@@ -20,7 +20,7 @@ include_once('include/blh.php');
         <div class="cont">
             <div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-4 col-xl-4 text-center mt-5">
                 <div class="logo">
-                    <img src="tjl.png" alt="logo">
+                    <img src="images/tjl.png" alt="logo">
                 </div>
                 <form class="rounded bg-white shadow p-5" id="form1">
                     <h3 class="text-dark fw-bolder fs-4 mb-2">Reset Password</h3>

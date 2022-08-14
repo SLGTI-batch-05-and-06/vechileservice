@@ -6,20 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="M.css">
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../include/b.css">
-    <?php include('../include/script.php');?>
+    <link rel="stylesheet" href="main/M.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="include/b.css">
+    <?php include('include/script.php');?>
 </head>
-
 <body>
     <?php
-include_once('../include/blh.php');
+include_once('include/blh.php');
 ?>
     <!-- banner -->
 
     <div class="box-area"
-        style="background-image:url(D1.png); background-size:100%; background-repeat:norepeat; height:245Px;">
+        style="background-image:url(main/D1.png); background-size:100%; background-repeat:norepeat; height:245Px;">
         <button class="btn" id="btn1">Book Appointment</button>
     </div>
 
@@ -47,9 +46,9 @@ include_once('../include/blh.php');
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col-2"></div>
             <div class="col">
-                <a href="../services_bfl/b_waterwash.php">
+                <a href="services_bfl/b_waterwash.php">
                     <div class="card">
-                        <img src="h1.png" class="card-img-top" alt="...">
+                        <img src="main/h1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                 </a>
                 <h5 class="card-title">Water wash</h5>
@@ -60,9 +59,9 @@ include_once('../include/blh.php');
         </div>
     </div>
     <div class="col">
-        <a href="../services_bfl/b_tire.php">
+        <a href="services_bfl/b_tire.php">
             <div class="card">
-                <img src="h2.png" class="card-img-top" alt="...">
+                <img src="main/h2.png" class="card-img-top" alt="...">
                 <div class="card-body">
         </a>
         <h5 class="card-title">New tires & tire repair</h5>
@@ -73,9 +72,9 @@ include_once('../include/blh.php');
     </div>
     </div>
     <div class="col">
-        <a href="../services_bfl/b_break.php">
+        <a href="services_bfl/b_break.php">
             <div class="card">
-                <img src="h3.png" class="card-img-top" alt="...">
+                <img src="main/h3.png" class="card-img-top" alt="...">
                 <div class="card-body">
         </a>
         <h5 class="card-title">Brakes repair</h5>
@@ -86,9 +85,9 @@ include_once('../include/blh.php');
     </div>
     </div>
     <div class="col">
-        <a href="../services_bfl/b_oil.php">
+        <a href="services_bfl/b_oil.php">
             <div class="card">
-                <img src="h4.png" class="card-img-top" alt="...">
+                <img src="main/h4.png" class="card-img-top" alt="...">
                 <div class="card-body">
         </a>
         <h5 class="card-title">Oil Changing</h5>
@@ -102,9 +101,9 @@ include_once('../include/blh.php');
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col-2"></div>
         <div class="col">
-            <a href="../services_bfl/b_enginlight.php">
+            <a href="services_bfl/b_enginlight.php">
                 <div class="card">
-                    <img src="h5.png" class="card-img-top" alt="...">
+                    <img src="main/h5.png" class="card-img-top" alt="...">
                     <div class="card-body"><a>
                             <h5 class="card-title">Check Engine Light</h5>
                             <p class="card-text">We do the checking of Engine lights
@@ -113,9 +112,9 @@ include_once('../include/blh.php');
                 </div>
         </div>
         <div class="col">
-            <a href="../services_bfl/b_belt.php">
+            <a href="services_bfl/b_belt.php">
                 <div class="card">
-                    <img src="h6.png" class="card-img-top" alt="...">
+                    <img src="main/h6.png" class="card-img-top" alt="...">
                     <div class="card-body">
             </a>
             <h5 class="card-title">Belt & Hoses</h5>
@@ -126,9 +125,9 @@ include_once('../include/blh.php');
     </div>
     </div>
     <div class="col">
-        <a href="../services_bfl/b_ac.php">
+        <a href="services_bfl/b_ac.php">
             <div class="card">
-                <img src="h7.png" class="card-img-top" alt="...">
+                <img src="main/h7.png" class="card-img-top" alt="...">
                 <div class="card-body">
         </a>
         <h5 class="card-title">A/C & Heating repair</h5>
@@ -139,9 +138,9 @@ include_once('../include/blh.php');
     </div>
     </div>
     <div class="col">
-        <a href="../services_bfl/b_steer.php">
+        <a href="services_bfl/b_steer.php">
             <div class="card">
-                <img src="h8.png" class="card-img-top" alt="...">
+                <img src="main/h8.png" class="card-img-top" alt="...">
                 <div class="card-body">
         </a>
         <h5 class="card-title">Steering & Suspension</h5>
@@ -163,27 +162,27 @@ include_once('../include/blh.php');
             <div class="col-2"></div>
             <div class="col">
                 <div class="card">
-                    <img src="g1.png" class="card-img-top" alt="...">
+                    <img src="main/g1.png" class="card-img-top" alt="...">
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="g2.png" class="card-img-top" alt="...">
+                    <img src="main/g2.png" class="card-img-top" alt="...">
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="g3.png" class="card-img-top" alt="...">
+                    <img src="main/g3.png" class="card-img-top" alt="...">
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="g4.png" class="card-img-top" alt="...">
+                    <img src="main/g4.png" class="card-img-top" alt="...">
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="g5.png" class="card-img-top" alt="...">
+                    <img src="main/g5.png" class="card-img-top" alt="...">
                 </div>
             </div>
             <div class="col-2"></div>
@@ -193,27 +192,27 @@ include_once('../include/blh.php');
             <div class="col-2"></div>
             <div class="col">
                 <div class="card">
-                    <img src="g6.png" class="card-img-top" alt="...">
+                    <img src="main/g6.png" class="card-img-top" alt="...">
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="g7.png" class="card-img-top" alt="...">
+                    <img src="main/g7.png" class="card-img-top" alt="...">
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="g8.png" class="card-img-top" alt="...">
+                    <img src="main/g8.png" class="card-img-top" alt="...">
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="g9.png" class="card-img-top" alt="...">
+                    <img src="main/g9.png" class="card-img-top" alt="...">
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="g10.png" class="card-img-top" alt="...">
+                    <img src="main/g10.png" class="card-img-top" alt="...">
                 </div>
             </div>
             <div class="col-2"></div>
@@ -228,7 +227,7 @@ include_once('../include/blh.php');
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col-2"></div>
             <div class="col">
-                <img src="h4.png" class="card-img" style="height: 30rem;" alt="...">
+                <img src="main/h4.png" class="card-img" style="height: 30rem;" alt="...">
             </div>
             <div class="col-2"></div>
         </div>
@@ -246,19 +245,19 @@ include_once('../include/blh.php');
                     To export Lanka inventions that are practical, innovative and reasonably priced for all
                     motorists.
             </div>
-            <img src="vision.png" alt="">
+            <img src="main/vision.png" alt="">
             </p>
         </div>
         <div class="section">
             <div class="text">
                 <h1>Our Mision</h1>
-                
-                    <P>To be one of the top Srilankan companies in the field of motor service.
-                        To export Lanka inventions that are practical, innovative and reasonably priced for all
-                        motorists.</p>
-               
+
+                <P>To be one of the top Srilankan companies in the field of motor service.
+                    To export Lanka inventions that are practical, innovative and reasonably priced for all
+                    motorists.</p>
+
             </div>
-            <img src="mission.png" alt="">
+            <img src="main/mission.png" alt="">
             </p>
         </div>
         <div class="section">
@@ -269,12 +268,12 @@ include_once('../include/blh.php');
                     To export Lanka inventions that are practical, innovative and reasonably priced for all
                     motorists.
             </div>
-            <img src="boss.png" alt="">
+            <img src="main/boss.png" alt="">
             </p>
         </div>
     </div>
     <?php
-include_once('../include/blf.php');
+include_once('include/blf.php');
 ?>
 </body>
 
